@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda de Inciensos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="botonsearch.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top scrolling-navbar" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo-incienso3.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="form-inline">
+                    <div class="md-form my-0">
+                        <input id="search" class="form-control ml-sm-2 d-none" type="text" placeholder="Search" aria-label="Search">
+                        <i class="fas fa-search" onclick="document.getElementById('search').classList.toggle('d-none')"></i>
+                    </div> 
+            </form>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categorías</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Productos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <div class="w-100 h-100"
+        style="background-image: url('img/incienso.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    </div>
+    <div class="container-fluid" id="changeColor">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#"><button type="button" class="btn btn-outline-light btn-lg">Más acerca de
+                        nosotros</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding area-blanca" >
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Nuestros productos destacados</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">¿Aún no te decides por un aroma? ¡Inspírate con los más populares!</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#"><img src="img/conos.png" class="w-50"></a>
+                <h3>Inciensos de cono - Citronela</h3>
+                <p>Para un ambiente calmado y un cuerpo relajado.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#"><img src="img/stick.jpg" class="w-50"></a>
+                <h3>Inciensos stick - Indian Rose</h3>
+                <p>Libérate del estrés y crea un ambiente romántico.</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <a href="#"><img src="img/stick-colores.jpg" class="w-50"></a>
+                <h3>Inciensos stick - Frutales</h3>
+                <p>Para un ambiente calmado y un cuerpo relajado.</p>
+            </div>
+
+        </div>
+        <hr class="my-4">
+    </div>
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+
+            </div>
+        </div>
+    </figure>
+    <br>
+    <hr class="my-4">
+
+    <div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-lg-6">
+            <h2>Más que un aroma...</h2>
+            <p>Nuestro sentido del olfato es capaz de relacionar el olor con el recuerdo de lo que representa, haciendo que un simple aroma, tenga el poder de recordarnos
+            a un ser querido, una estación del año o un acontecimiento específico en nuestras vidas.    
+            </p>
+            <p>Una de las razones por la que los inciensos son tan poderosos se debe al material con el que están hechos; 
+            materias naturales. Es bien sabido que las plantas tienen propiedades curativas, sanadoras o espirituales, de ahí su tan afamado poder.</p>
+            <br>
+            <a href="#" class="btn btn-primary">Elige el tuyo</a>
+        </div>
+        
+        <div class="col-lg-6">
+            <img src="img/incienso-cafe2.jpg" class="inciensoc">
+        </div>
+    </div>
+    </div>
+
+    <br>
+    <br>
+    <hr class="my-4">
+
+    <footer id="myFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="#"><img src="img/logo-incienso3.png"></a>
+                    </div>
+                    <div class="col-sm-2">
+                        <h5>Tienda</h5>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Regístrate</a></li>
+                            <li><a href="#">Downloads</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h5>Nosotros</h5>
+                        <ul>
+                            <li><a href="#">Información de la compañia</a></li>
+                            <li><a href="#">Contáctanos</a></li>
+                            <li><a href="#">Opiniones</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h5>Soporte</h5>
+                        <ul>
+                            <li><a href="#">Preguntas frecuentes</a></li>
+                            <li><a href="#">Ayuda</a></li>
+                            <li><a href="#">Habla con nuestros expertos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="social-networks">
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></a>
+                        </div>
+                        <button type="button" class="btn btn-default">Regístrate</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>© 2019 Copyright Text </p>
+            </div>
+        </footer>
+        
+</body>
+
+</html>
